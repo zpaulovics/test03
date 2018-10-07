@@ -1,0 +1,13 @@
+ID: test03
+_schema-version: '2.0'
+description: 'PZ''s #3 HANA test projekt'
+version: 0.0.1
+
+modules:
+ - name: js
+   type: nodejs
+   path: js
+   provides:
+    - name: js_api
+      properties:
+         url: ${default-url}
